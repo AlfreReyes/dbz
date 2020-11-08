@@ -16,7 +16,7 @@ body {
     margin-left: 10px;
     margin-top: 10px;
 }
-.login {
+.register {
     background: linear-gradient(#f37121, #111d5e);
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@ body {
     padding: 20px 0px;
     min-height: calc(100vh - 200px);
 }
-.login__container {
+.register__container {
     background-color: rgba(255,255,255,0.1);
     border: 2px solid white;
     border-radius: 40px;
@@ -37,53 +37,53 @@ body {
     flex-direction: column;
     color: white;
 }
-.login__container--form {
+.register__container--form {
     display: flex;
     flex-direction: column;
 }
-.login__container--form label {
+.register__container--form label {
     font-size: 14px;
 }
-.login__container--remember-me {
+.register__container--remember-me {
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 10px;
 }
-.login__container--remember-me a {
+.register__container--remember-me a {
     color: white;
     text-decoration: none;
     font-size: 14px;
 }
-.login__container--remember-me a:hover {
+.register__container--remember-me a:hover {
     text-decoration: underline;
 }
-.login__container--social-media {
+.register__container--social-media {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.login__container--social-media > div {
+.register__container--social-media > div {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
     font-size: 14px;
 }
-.login__container--social-media > div > a {
+.register__container--social-media > div > a {
    width: 30px;
    margin-right: 10px;
 }
-.login__container--register {
+.register__container--register {
     font-size: 14px;
     display: flex;
     justify-content: center;
 }
-.login__container--register a {
+.register__container--register a {
     color: white;
     font-weight: bold;
     text-decoration: none;
 }
-.login__container--register a:hover {
+.register__container--register a:hover {
     text-decoration: underline;
 }
 .input {
@@ -137,21 +137,21 @@ body {
     .header{
       justify-content: center;
     }
-    .login{
+    .register{
     margin-top: -2px;
     padding: 0 20px;
     }
-    .login__container{
+    .register__container{
       background-color: transparent;
       border: none;
       padding: 0;
       width: 100%;
       justify-content: space-around;
     }
-    .login__container--remember-me{
+    .register__container--remember-me{
       align-items: center;
     }
-    .login__container--remember-me label{
+    .register__container--remember-me label{
       display: flex;
       align-items: center
     }
@@ -165,11 +165,11 @@ body {
     .input {
         font-size: 16px;
     }
-    .login__container--social-media > div{
+    .register__container--social-media > div{
         margin: 0;
         padding: 0;
     }
-    .login__container--register {
+    .register__container--register {
         font-size: 14px;
         display: flex;
         justify-content: center;
